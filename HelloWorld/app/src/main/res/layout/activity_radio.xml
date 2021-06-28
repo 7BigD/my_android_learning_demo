@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioActivity"
+    android:padding="16dp">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="femal"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="male"
+            android:button="@null"
+            android:textSize="20sp"
+            android:background="@drawable/bg_radio"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="femal"
+            android:button="@null"
+            android:textSize="20sp"
+            android:background="@drawable/bg_radio"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>

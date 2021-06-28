@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/btn_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Textview" />
+
+    <Button
+        android:id="@+id/btn_textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text"
+        />
+    <Button
+        android:id="@+id/btn_textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editText"
+
+        />
+
+    <Button
+        android:id="@+id/btn_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="radio"
+        />
+
+    <Button
+        android:id="@+id/btn_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Imageview"
+        />
+
+    <Button
+        android:id="@+id/btn_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="listview"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gridview"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recyclerView"
+        android:textSize="20sp" />
+</LinearLayout>

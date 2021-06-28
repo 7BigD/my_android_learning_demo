@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".EditTextActivity">
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="phone/mail/wechat"
+        android:textSize="20sp"
+        android:textColor="#DDB822"
+        android:background="@drawable/bg_username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/username"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/et_2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:hint="password"
+        android:layout_below="@id/et_1"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:background="@drawable/bg_username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+        />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_2"
+        android:text="login"
+        android:textSize="18sp"
+        android:background="@drawable/bg_btn4"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

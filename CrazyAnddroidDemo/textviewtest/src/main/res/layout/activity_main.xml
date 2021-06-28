@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="love java"
+        android:drawableEnd="@mipmap/ic_launcher" />
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="love javalove 我我我     javalove javalove javalove javalove javalove javalove java"
+        android:ellipsize="middle"
+        android:textAllCaps="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="邮件是：yuanhaosheng@kuaishou.com, 电话是 15113499999"
+        android:autoLink="email|phone"
+        />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_recyclerView"
+        android:background="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recyclerView"/>
+
+    <Button
+        android:id="@+id/btn_listView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="listview" />
+
+</LinearLayout>

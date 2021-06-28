@@ -1,0 +1,6 @@
+rootProject.name = "CrazyAnddroidDemo"
+include ':app'
+include ':layoutdemo'
+include ':layoutDemo'
+include ':framelayout'
+include ':textviewtest'
