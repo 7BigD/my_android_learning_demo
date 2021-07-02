@@ -63,4 +63,30 @@
         android:layout_height="wrap_content"
         android:text="recyclerView"
         android:textSize="20sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btn_toastView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toastView"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_DialogView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toastView"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
 </LinearLayout>

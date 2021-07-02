@@ -1,0 +1,4 @@
+rootProject.name = "UIDemoFromBili"
+include ':app'
+include ':sql_demo2'
+include ':constraintlayoutdemo'
